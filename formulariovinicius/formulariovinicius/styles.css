@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    :root {
+    --bg-color: #a7c8e7;
+    --text-color: #efbc98;
+    --nav-bg-color: #9b9792(255, 0, 0);
+    --btn-bg-color: #efd2be;
+    --btn-text-color: #d9ddcd(229, 255, 0);
+    --form-bg: #efe1d1(255, 255, 255);
+    --input-border: #efbc98;
+    --input-bg: lightblue;
+    --btn-bg: rgb(0, 255, 179);
+    }
+    
+    body {
+    font-family:'Roboto';
+    line-height: 1.5;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    }
+    
+    nav {
+    background-color: var(--nav-bg-color);
+    padding: 16px;
+    overflow: hidden;
+    clear: both;
+    }
+    
+    
+    .logo {
+    float: left;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+    #dark-mode-botao {
+    float: right;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    form {
+    background-color: var(--form-bg);
+    padding: 15px;
+    }
+    
+    fieldset{
+    padding: 10px;
+    border: 1px solid #09ff00;
+    }
+    
+    legend {
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #1f3968;
+    border-radius: 5px;
+    padding: 5px 10px;
+    }
+    
+    label {
+    display: block;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    select,
+    textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid var(--input-border);
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+    }
+    
+    input[type="submit"] {
+    background-color: var(--btn-bg);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: var(--text-color);
+    }
+    
+    input[type="submit"]:hover {
+    background-color: rgb(48, 82, 233);
+    }
+    
+    .radio-option,
+    .checkbox-option {
+    display: inline-block;
+
+    }
+    
+    
+    .radio-option label,
+    .checkbox-option label {
+    display: inline;
+    }   
+
+    .dark-mode {
+        --bg-color: #222;
+        --text-color: #ffffff;
+        --nav-bg-color: rgb(85, 85, 85);
+        --btn-bg-color: rgb(131, 130, 133);
+        --btn-text-color: rgb(17, 30, 68);
+        --form-bg: rgb(0, 0, 0);
+        --input-border: #0f0d0f;
+        --input-bg: rgb(0, 0, 0);
+        --btn-bg: rgb(66, 68, 67);
+    }
